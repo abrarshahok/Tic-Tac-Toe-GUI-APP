@@ -9,8 +9,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>198</width>
-    <height>255</height>
+    <width>330</width>
+    <height>595</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -27,8 +27,8 @@
   </property>
   <property name="maximumSize">
    <size>
-    <width>198</width>
-    <height>255</height>
+    <width>11000</width>
+    <height>11000</height>
    </size>
   </property>
   <property name="sizeIncrement">
@@ -58,9 +58,9 @@
     <property name="geometry">
      <rect>
       <x>20</x>
-      <y>5</y>
-      <width>143</width>
-      <height>100</height>
+      <y>60</y>
+      <width>291</width>
+      <height>241</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="horizontalLayout_2">
@@ -198,10 +198,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>108</y>
-      <width>172</width>
-      <height>124</height>
+      <x>20</x>
+      <y>370</y>
+      <width>291</width>
+      <height>151</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -212,6 +212,9 @@
        </property>
        <item>
         <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font: 14pt &quot;Fira Sans&quot;;</string>
+         </property>
          <property name="text">
           <string>Game Status</string>
          </property>
@@ -219,6 +222,9 @@
        </item>
        <item>
         <widget class="QLineEdit" name="Winner_Text">
+         <property name="styleSheet">
+          <string notr="true">font: 16pt &quot;Fira Sans&quot;;</string>
+         </property>
          <property name="text">
           <string/>
          </property>
@@ -234,6 +240,9 @@
          </property>
          <item>
           <widget class="QPushButton" name="mark_O">
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Fira Sans&quot;;</string>
+           </property>
            <property name="text">
             <string>O</string>
            </property>
@@ -241,6 +250,9 @@
          </item>
          <item>
           <widget class="QPushButton" name="mark_X">
+           <property name="styleSheet">
+            <string notr="true">font: 16pt &quot;Fira Sans&quot;;</string>
+           </property>
            <property name="text">
             <string>X</string>
            </property>
@@ -252,6 +264,9 @@
      </item>
      <item>
       <widget class="QPushButton" name="About">
+       <property name="styleSheet">
+        <string notr="true">font: 16pt &quot;Fira Sans&quot;;</string>
+       </property>
        <property name="text">
         <string>About</string>
        </property>
@@ -265,8 +280,8 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>198</width>
-     <height>25</height>
+     <width>330</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>
